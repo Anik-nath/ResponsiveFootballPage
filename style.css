@@ -318,7 +318,7 @@ media query for mobile
 /*---------------------------
 media query for ipad
 ----------------------------*/
-@media (min-width:480px) and (max-width:768px) {
+@media (min-width:481px) and (max-width:1024px) {
     nav{
         display: none;
     }
@@ -344,6 +344,7 @@ media query for ipad
     }
     .player{
         width: auto;
+        height: auto;
     }
     
     .table-head {
@@ -366,7 +367,7 @@ media query for ipad
     }
     .highlights-match img{
         width: 100%;
-        height: 278px;
+        height: 378px;
         margin-top: 29px;
         padding: 0px;
     }

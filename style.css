@@ -3,15 +3,30 @@
  ----------------*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap');
-/* main body style */
+/*---------------------------
+ main body style 
+-----------------------------*/
 body{
     font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
 }
-/* common utilities  */
+/*---------------------------
+ common utilities
+ ---------------------------*/
 section{
     margin-top: 40px;
+}
+.button{
+    text-decoration: none;
+    background-color: #E02C6D;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 10px 24px;
+}
+.button .fa-arrow-right{
+    margin: 0px 8px;
 }
 /* header style start */
 header{
@@ -53,17 +68,7 @@ header .head-container{
 .head-title h1{
     font-size: 60px;
 }
-.live-button{
-    text-decoration: none;
-    background-color: #E02C6D;
-    color: #fff;
-    font-weight: 500;
-    font-size: 16px;
-    padding: 10px 24px;
-}
-.live-button .fa-arrow-right{
-    margin: 0px 8px;
-}
+
 .head-image img{
     width: 546.01px;
     height: 438px;  
@@ -108,7 +113,7 @@ main{
     line-height: 26px;
     color:#6C6C6C;
 }
-/* result  */
+/* result style */
 #result{
     background-color: #2D25A0;
     padding: 3%;
@@ -159,8 +164,7 @@ main{
     margin: 0px;
     font-size: 28px;
 }
-/* result end  */
-/* highlights  */
+/* highlights style */
 #all-highlights{
     padding: 30px 0px;
 }
@@ -187,7 +191,7 @@ main{
     height: 427px;
     padding: 0px 60px;
 }
-/* -------------------- */
+/* --------points table style------------ */
 #points-table{
     width: 100%;
     padding: 10px 0px;
@@ -227,7 +231,7 @@ main{
     justify-content: center;
     margin-top: 10px;
 }
-/* points table end  */
+
 /* footer style */
 footer{
     text-align: center;
